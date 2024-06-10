@@ -8,9 +8,9 @@ class dino:
         self.xtree , self.ytree = 500, 230 
         self.screen = pygame.display.set_mode((600,300))
         self.running = True 
-        self.bg = pygame.image.load('dino/dino/dino/assets/background.jpg')
-        self.dino = pygame.image.load('dino/dino/dino/assets/dinosaur.png')
-        self.tree = pygame.image.load('dino/dino/dino/assets/tree.png')
+        self.bg = pygame.image.load('dino/dino/assets/background.jpg')
+        self.dino = pygame.image.load('dino/dino/assets/dinosaur.png')
+        self.tree = pygame.image.load('dino/dino/assets/tree.png')
         self.clock = pygame.time.Clock()
         self.jump = False
         self.gameplay = True 
